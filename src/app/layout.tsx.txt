@@ -1,0 +1,14 @@
+export const metadata = {
+  title: "Fotos Históricas",
+  description: "Generador de fichas de fotos históricas",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="es">
+      <body style={{ fontFamily: "sans-serif", padding: 20, backgroundColor: "#f9f9f9" }}>
+        {children}
+      </body>
+    </html>
+  );
+}
